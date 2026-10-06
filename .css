@@ -1,0 +1,33 @@
+body {
+    margin:0;
+    text-align:center;
+}
+
+header{
+    background-color: rgb(190, 214, 255);
+    width: 100%;
+    padding:20px;
+}
+
+h1{
+    color:rgb(36, 64, 88);
+    font-family: 'Arial';
+    font-size:30px;
+}
+p{
+    font-family: Arial;
+    font-size:18px;
+    text-align: justify;
+    -webkit-hyphens:none;
+    hyphens:none;
+    overflow-wrap:break-word;
+    word-break:keep-all;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px 40px;
+}
+
+img {
+    width: 750px;
+    height: auto;
+}
