@@ -1,24 +1,25 @@
 body {
     margin:0;
     text-align:center;
+    background-color: rgb(236, 236, 254);
 }
 
 /* Site */
 
 header{
-    background-color: rgb(190, 214, 255);
+    background-color: rgb(14, 29, 54);
     width: 100%;
     padding:20px;
 }
 
 h1{
-    color:rgb(36, 64, 88);
+    color:rgb(255, 255, 255);
     font-family: 'Arial';
     font-size:35px;
 }
 p{
     font-family: Arial;
-    font-size:18px;
+    font-size:20px;
     text-align: justify;
     -webkit-hyphens:none;
     hyphens:none;
@@ -30,8 +31,17 @@ p{
 }
 
 img {
-    width: 750px;
+    width: 700px;
     height: auto;
+
+
+
+
+
+
+
+
+    
 }
 
 /* Menu */
@@ -42,14 +52,14 @@ img {
     justify-content: center;
     gap: 15px;
     padding: 20px;
-    background-color: rgb(217, 230, 254);
+    background-color: rgb(42, 61, 94);
 }
 
 /* Botões do Menu */
 
 .menu a {
     text-decoration: none;
-    color: rgb(2, 9, 69);
+    color: rgb(255, 255, 255);
     font-family: Arial;
     font-size: 18px;
     font-weight: bold;
@@ -71,4 +81,21 @@ img {
     background-color: rgb(118, 118, 188);
     color: white;
     transform: translateY(-2px);
+}
+
+/* Cont */
+
+.conte {
+    display:flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.conte img {
+    width: 700px;
+    height: auto;
+}
+
+.text {
+    flex:1;
 }
